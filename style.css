@@ -8,7 +8,7 @@ body{
 h1{
     font-size: 35px;
 }
-section{
+.Fixible_container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -18,8 +18,7 @@ section{
 }
 .half_width img{
     width: 100%;
-    border:1px solid tomato;
-    border-radius:50%;
+    border-radius: 50%;
 }
 .link_btn{
     text-decoration: none;
@@ -37,4 +36,31 @@ section{
     background-image:url("images/dream-bg.png");
     background-repeat:no-repeat;
     background-position: right;
+}
+.experience_area{
+    background-image: url("images/exp-bg.png");
+    background-repeat:no-repeat;
+    background-position:left;
+}
+.Experience_item{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+
+}
+#bing_web-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#full_web-experience{
+    border-left: 7px solid;
+    border-image:linear-gradient(tomato,red);
+    border-image-slice:1;
+}
+footer p{
+    text-align: center;
 }
