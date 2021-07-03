@@ -58,7 +58,7 @@ h1{
 }
 #full_web-experience{
     border-left: 7px solid;
-    border-image:linear-gradient(tomato,red);
+    border-image:linear-gradient(rgb(255, 11, 11),rgb(250, 23, 250));
     border-image-slice:1;
 }
 footer p{
