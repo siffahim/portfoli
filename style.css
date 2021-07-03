@@ -6,7 +6,10 @@ body{
     color:orange;
 }
 h1{
-    font-size: 35px;
+    font-size: 40px;
+}
+h2{
+    font-size: 34px;
 }
 .Fixible_container{
     display: flex;
