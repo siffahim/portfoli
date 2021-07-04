@@ -3,10 +3,13 @@ body{
     margin:0;
 }
 .orange_color{
-    color:orange;
+    color:orangered;
 }
 h1{
-    font-size: 35px;
+    font-size: 45px;
+}
+h2{
+    font-size: 40px;
 }
 .Fixible_container{
     display: flex;
